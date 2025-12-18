@@ -1,0 +1,7 @@
+﻿@model PaymentRequest
+
+<h2>Ödeme Tutarını Giriniz:</h2>
+<form asp-action="Pay" method="post">
+    <input type="text" asp-for="Amount" placeholder="Ödeme Tutarı" />
+    <button>Ödeme Yap</button>
+</form>
